@@ -1,0 +1,43 @@
+html{
+scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: url("fundoroxo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar-light .navbar-brand{
+    color: #FFEBD2;
+    font-size: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFEBD2;
+    font-size: 25px;
+}
+
+.Parágrafo-img{
+    display: grid;
+    grid-template-areas:
+    "parágrafo circulo";
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.parágrafo{
+    align-self: center;
+    font-size: 20px;
+    color: #FFEBD2;
+    margin-left: 30px;
+}
+
+.circulo{
+    background-image: url("sarinhagatinha.jfif");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
